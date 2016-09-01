@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="CyberConnect.HomePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CyberConnect"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" RequestedTheme="Light" Background="White">
+    <Page.BottomAppBar>
+        <CommandBar>
+            <AppBarButton x:ConnectionId='1' Content="About" Icon="Account"                           />
+        </CommandBar>
+    </Page.BottomAppBar>
+    <ScrollViewer>
+        <StackPanel Background="White" HorizontalAlignment="Center">
+            <Image Height="150" Width="150" Source="Assets/notif_icon.png" Margin="20"/>
+            <TextBlock Text="Current Account:" FontSize="25" TextWrapping="Wrap" Margin="10" HorizontalAlignment="Left" TextAlignment="Center"/>
+            <TextBlock x:ConnectionId='2' x:Name="txtUsername" Text="Username" FontSize="25" Margin="10" HorizontalAlignment="Center" FontWeight="Bold"/>
+            <Button x:ConnectionId='3' x:Name="btnLogin" Width="300" Content="Logout" Margin="10" HorizontalAlignment="Center"                       />
+            <Button x:ConnectionId='4' x:Name="btnDelete" Width="300" Content="Delete Account" Margin="10" HorizontalAlignment="Center"                        />
+            
+            <TextBlock x:ConnectionId='5' x:Name="txtError" TextWrapping="Wrap" Foreground="#FF3A0000" FontWeight="Bold"/>
+            <CheckBox x:ConnectionId='6' x:Name="checkBox" Content="Automatically Login to BITS-Network" Margin="10" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"                                                          />
+        </StackPanel>
+    </ScrollViewer>
+</Page>
+

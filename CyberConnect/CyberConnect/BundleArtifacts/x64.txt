@@ -1,0 +1,2 @@
+MainPackage=C:\Users\Srujan Jha\documents\visual studio 2015\Projects\CyberConnect\CyberConnect\bin\x64\Release\CyberConnect_1.1.2.0_x64.appx
+SymbolPackage=C:\Users\Srujan Jha\documents\visual studio 2015\Projects\CyberConnect\CyberConnect\AppPackages\CyberConnect_1.1.2.0_Test\CyberConnect_1.1.2.0_x64.appxsym

@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="CyberConnect.AboutPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CyberConnect"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" RequestedTheme="Light" Background="White">
+    <ScrollViewer>
+
+    <StackPanel Margin="10" Background="White" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Image Height="150" Width="150" Source="Assets/notif_icon.png" Margin="10"/>
+        <TextBlock FontSize="25" TextWrapping="Wrap" HorizontalAlignment="Center" TextAlignment="Center" >
+            <Run Text="CyberConnect is an Open-Source project aimed at simplifying the login process of CyberRoam Clients in BITS-Pilani, Hyderabad Campus."/>
+            <LineBreak/><LineBreak/>
+            <Run Text="You can visit the project on GitHub using the below link."/>
+        </TextBlock>
+            <HyperlinkButton FontSize="25" Content="Link to GitHub Project" NavigateUri="https://github.com/CRUx-BPHC/Cyber-Connect-Windows"/>
+
+
+    </StackPanel>
+    </ScrollViewer>
+</Page>
